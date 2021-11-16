@@ -1,0 +1,889 @@
+{
+    "space-filling": [
+        {
+            "angle": 90,
+            "axiom": "X",
+            "desc": "Hilbert Curve",
+            "distance": 4,
+            "itermax": 7,
+            "iterations": 6,
+            "orientation": [1, 0],
+            "pos": [
+                10,
+                10
+            ],
+            "rules": {
+                "X": "-YF+XFX+FY-",
+                "Y": "+XF-YFY-FX+"
+            }
+        },
+        {
+            "angle": 90,
+            "axiom": "AFA+F+AFA",
+            "desc": "Hilbert Curve Variation",
+            "distance": 4,
+            "itermax": 6,
+            "iterations": 4,
+            "orientation": [0, 1],
+            "pos": [
+                260,
+                10
+            ],
+            "rules": {
+                "A": "-BF+AFA+FB-",
+                "B": "+AF-BFB-FA+"
+            }
+        },
+        {
+            "angle": 90,
+            "axiom": "L",
+            "desc": "Peano Curve",
+            "distance": 4,
+            "itermax": 5,
+            "iterations": 4,
+            "orientation": [1, 0],
+            "pos": [
+                10,
+                10
+            ],
+            "rules": {
+                "L": "LFRFL-F-RFLFR+F+LFRFL",
+                "R": "RFLFR+F+LFRFL-F-RFLFR"
+            }
+        },
+        {
+            "angle": 90,
+            "axiom": "L",
+            "desc": "FASS Curve 0",
+            "distance": 4,
+            "itermax": 4,
+            "iterations": 3,
+            "orientation": [0, 1],
+            "pos": [
+                10,
+                10
+            ],
+            "rules": {
+                "L": "LF+RFR+FL-FRF-LFL-FR+F+RF-LFL-FRF-LF+RFR+FL",
+                "R": "RFRF-LFLFL-F-LF+RFR+FLF+RFRFRFR+FLFLFL-"
+            }
+        },
+        {
+            "angle": 90,
+            "axiom": "L",
+            "desc": "FASS Curve 1",
+            "distance": 4,
+            "itermax": 5,
+            "iterations": 4,
+            "orientation": [0, 1],
+            "pos": [
+                10,
+                10
+            ],
+            "rules": {
+                "L": "LF+RFR+FL-F-LFLFL-FRFR+",
+                "R": "-LFLF+RFRFR+F+RF-LFL-FR"
+            }
+        },
+        {
+            "angle": 90,
+            "axiom": "L",
+            "desc": "FASS Curve 2",
+            "distance": 4,
+            "itermax": 4,
+            "iterations": 3,
+            "orientation": [0, 1],
+            "pos": [
+                10,
+                10
+            ],
+            "rules": {
+                "L": "LFLF+RFR+FLFL-FRF-LFL-FR+F+RF-LFL-FRFRFR+",
+                "R": "-LFLFLF+RFR+FL-F-LF+RFR+FLF+RFRF-LFL-FRFR"
+            }
+        },
+        {
+            "angle": 90,
+            "axiom": "FY",
+            "desc": "FASS Spiral",
+            "distance": 4,
+            "itermax": 5,
+            "iterations": 4,
+            "orientation": [0, 1],
+            "pos": [
+                170,
+                170
+            ],
+            "rules": {
+                "L": "LF+RFR+FL-F-LFLFL-FRFR+",
+                "R": "-LFLF+RFRFR+F+RF-LFL-FR",
+                "Y": "Y+RFR+FLF+RFRFR+FLFLF"
+            }
+        },
+        {
+            "angle": 90,
+            "axiom": "YF",
+            "desc": "Quadratic Gosper Curve",
+            "distance": 4,
+            "itermax": 3,
+            "iterations": 3,
+            "orientation": [0, 1],
+            "pos": [
+                30,
+                30
+            ],
+            "rules": {
+                "X": "XFX-YF-YF+FX+FX-YF-YFFX+YF+FXFXYF-FX+YF+FXFX+YF-FXYF-YF-FX+FX+YFYF-",
+                "Y": "+FXFX-YF-YF+FX+FXYF+FX-YFYF-FX-YF+FXYFYF-FX-YFFX+FX+YF-YF-FX+FX+YFY"
+            }
+        },
+        {
+            "angle": 60,
+            "axiom": "XF",
+            "desc": "Gosper's Curve",
+            "distance": 8,
+            "itermax": 5,
+            "iterations": 4,
+            "orientation": [0, 1],
+            "pos": [
+                120,
+                360
+            ],
+            "rules": {
+                "X": "X+YF++YF-FX--FXFX-YF+",
+                "Y": "-FX+YFYF++YF+FX--FX-Y"
+            }
+        }
+    ],
+    "trees": [
+        {
+            "angle": 45,
+            "axiom": "F",
+            "desc": "Houdini Tree",
+            "distance": 7,
+            "itermax": 5,
+            "iterations": 4,
+            "orientation": [0, -1],
+            "pos": [
+                400,
+                540
+            ],
+            "rules": {
+                "F": "F[+F]F[+F][-F]"
+            }
+        },
+        {
+            "angle": 23,
+            "axiom": "X",
+            "desc": "Tree F",
+            "distance": 5,
+            "itermax": 6,
+            "iterations": 5,
+            "orientation": [0, -1],
+            "pos": [
+                300,
+                500
+            ],
+            "rules": {
+                "X": "F-[[X]+X]+F[+FX]-X",
+                "F": "FF"
+            }
+        },
+        {
+            "angle": 26,
+            "axiom": "X",
+            "desc": "Tree E",
+            "distance": 5,
+            "itermax": 6,
+            "iterations": 5,
+            "orientation": [0, -1],
+            "pos": [
+                300,
+                500
+            ],
+            "rules": {
+                "X": "F[+X][-X]FX",
+                "F": "FF"
+            }
+        },
+        {
+            "angle": 22,
+            "axiom": "F",
+            "desc": "Tree B",
+            "distance": 9,
+            "itermax": 5,
+            "iterations": 4,
+            "orientation": [0, -1],
+            "pos": [
+                300,
+                500
+            ],
+            "rules": {
+                "F": "F[+F]F[-F][F]"
+            }
+        },
+        {
+            "angle": 21,
+            "axiom": "F",
+            "desc": "Tree C",
+            "distance": 9,
+            "itermax": 4,
+            "iterations": 3,
+            "orientation": [0, -1],
+            "pos": [
+                300,
+                500
+            ],
+            "rules": {
+                "F": "FF+[+F-F-F]-[-F+F+F]"
+            }
+        },
+        {
+            "angle": 26,
+            "axiom": "Y",
+            "desc": "Tree X",
+            "distance": 7,
+            "itermax": 6,
+            "iterations": 5,
+            "orientation": [0, -1],
+            "pos": [
+                300,
+                500
+            ],
+            "rules": {
+                 "X": "X[-FFF][+FFF]FX",
+                 "Y": "YFX[+Y][-Y]"
+            }
+        },
+        {
+            "angle": 29,
+            "axiom": "F",
+            "desc": "Tree Y",
+            "distance": 9,
+            "itermax": 4,
+            "iterations": 3,
+            "orientation": [0, -1],
+            "pos": [
+                300,
+                500
+            ],
+            "rules": {
+                 "F": "F[+FF][-FF]F[-F][+F]F"
+            }
+        },
+        {
+            "angle": 24,
+            "axiom": "X",
+            "desc": "Tree D",
+            "distance": 5,
+            "itermax": 6,
+            "iterations": 5,
+            "orientation": [0, -1],
+            "pos": [
+                300,
+                500
+            ],
+            "rules": {
+                "X": "F[+X]F[-X]+X",
+                "F": "FF"
+            }
+        },
+        {
+            "angle": 24,
+            "axiom": "F",
+            "desc": "Tree A",
+            "distance": 5,
+            "itermax": 5,
+            "iterations": 4,
+            "orientation": [0, -1],
+            "pos": [
+                300,
+                500
+            ],
+            "rules": {
+                "F": "F[+F]F[-F]F"
+            }
+        }
+    ],
+    "snowflakes": [
+        {
+            "angle": 60,
+            "axiom": "F++F++F",
+            "desc": "Koch Snowflake",
+            "distance": 5,
+            "itermax": 4,
+            "iterations": 4,
+            "orientation": [1, 0],
+            "pos": [
+                70,
+                400
+            ],
+            "rules": {
+                "F": "F-F++F-F"
+            }
+        },
+        {
+            "angle": 90,
+            "axiom": "F+F+F+F",
+            "desc": "Snowflake 1",
+            "distance": 5,
+            "itermax": 5,
+            "iterations": 4,
+            "orientation": [1, 0],
+            "pos": [
+                180,
+                300
+            ],
+            "rules": {
+                "F": "F+F-F+F+F"
+            }
+        },
+        {
+            "angle": 90,
+            "axiom": "F+F+F+F",
+            "desc": "Snowflake 2",
+            "distance": 5,
+            "itermax": 4,
+            "iterations": 3,
+            "orientation": [1, 0],
+            "pos": [
+                380,
+                500
+            ],
+            "rules": {
+                "F": "FF+F+F+F+F+F-F"
+            }
+        },
+        {
+            "angle": 36,
+            "axiom": "F++F++F++F++F",
+            "desc": "Bourke Pentaplexy",
+            "distance": 6,
+            "itermax": 4,
+            "iterations": 4,
+            "orientation": [0, 1],
+            "pos": [
+                20,
+                150
+            ],
+            "rules": {
+                "F": "F++F++F+++++F-F++F"
+            }
+        },
+        {
+            "angle": 72,
+            "axiom": "F-F-F-F-F",
+            "desc": "McWorter Pentigree",
+            "distance": 6,
+            "itermax": 4,
+            "iterations": 4,
+            "orientation": [0, 1],
+            "pos": [
+                100,
+                270
+            ],
+            "rules": {
+                "F": "F-F++F+F-F-F"
+            }
+        },
+        {
+            "angle": 30,
+            "axiom": "X",
+            "desc": "Gary Teachout Hex-7-b",
+            "distance": 4,
+            "itermax": 5,
+            "iterations": 4,
+            "orientation": [0, -1],
+            "pos": [
+                20,
+                270
+            ],
+            "rules": {
+                "X": "-F++F-X-F--F+Y---F--F+Y+F++F-X+++F++F-X-F++F-X+++F--F+Y--",
+                "Y": "+F++F-X-F--F+Y+F--F+Y---F--F+Y---F++F-X+++F++F-X+++F--F+Y"
+            }
+        },
+        {
+            "angle": 72,
+            "axiom": "F-F-F-F-F",
+            "desc": "McWorter Penta Snowflake 1",
+            "distance": 4,
+            "itermax": 4,
+            "iterations": 4,
+            "orientation": [0, -1],
+            "pos": [
+                20,
+                210
+            ],
+            "rules": {
+                "F": "F-F-F++F+F-F"
+            }
+        },
+        {
+            "angle": 72,
+            "axiom": "X-X-X-X-X",
+            "desc": " McWorter Penta Snowflake 2",
+            "distance": 4,
+            "itermax": 3,
+            "iterations": 3,
+            "orientation": [1, 0],
+            "pos": [
+                400,
+                100
+            ],
+            "rules": {
+                "X": "FX-FX-FX+FY+FY+FX-FX",
+                "Y": "FY+FY-FX-FX-FY+FY+FY"
+            }
+        },
+        {
+            "angle": 45,
+            "axiom": "F++++F",
+            "desc": "Anthony Hanmer ADH231a",
+            "distance": 4,
+            "itermax": 4,
+            "iterations": 4,
+            "orientation": [1, 0],
+            "pos": [
+                100,
+                300
+            ],
+            "rules": {
+                "F": "F+F+F++++F+F+F"
+            }
+        },
+        {
+            "angle": 30,
+            "axiom": "F--F--F--F--F--F",
+            "desc": "Mariano Doily Circle",
+            "distance": 4,
+            "itermax": 5,
+            "iterations": 4,
+            "orientation": [0, -1],
+            "pos": [
+                20,
+                160
+            ],
+            "rules": {
+                "F": "-F[--F--F]++F--F+"
+            }
+        },
+        {
+            "angle": 45,
+            "axiom": "F++F++F++F",
+            "desc": "Levy Curve",
+            "distance": 5,
+            "itermax": 10,
+            "iterations": 10,
+            "orientation": [1, 0],
+            "pos": [
+                180,
+                340
+            ],
+            "rules": {
+                "F": "-F++F-"
+            }
+        }
+    ],
+    "rectangular": [
+        {
+            "angle": 90,
+            "axiom": "F",
+            "desc": "Fake Peano",
+            "distance": 4,
+            "itermax": 3,
+            "iterations": 3,
+            "orientation": [1, 1],
+            "pos": [
+                10,
+                10
+            ],
+            "rules": {
+                "F": "FF+F+F+FF+F+F-F"
+            }
+        },
+        {
+            "angle": 90,
+            "axiom": "F+XF+F+XF",
+            "desc": "Serpinski Curve 1",
+            "distance": 8,
+            "itermax": 6,
+            "iterations": 4,
+            "orientation": [-1, 1],
+            "pos": [
+                20,
+                20
+            ],
+            "rules": {
+                "X": "XF-F+F-XF+F+XF-F+F-X"
+            }
+        },
+        {
+            "angle": 90,
+            "axiom": "F+F+F+F",
+            "desc": "Box Fractal",
+            "distance": 8,
+            "itermax": 5,
+            "iterations": 3,
+            "orientation": [0, 1],
+            "pos": [
+                20,
+                20
+            ],
+            "rules": {
+                "F": "FF+F+F+F+FF"
+            }
+        },
+        {
+            "angle": 45,
+            "axiom": "F--XF--F--XF",
+            "desc": "Serpinski Curve 2",
+            "distance": 8,
+            "itermax": 6,
+            "iterations": 4,
+            "orientation": [1, -1],
+            "pos": [
+                20,
+                20
+            ],
+            "rules": {
+                "X": "XF+F+XF--F--XF+F+X"
+            }
+        },
+
+        {
+            "angle": 90,
+            "axiom": "F-F-F-F",
+            "desc": "Box Crystal",
+            "distance": 5,
+            "itermax": 4,
+            "iterations": 4,
+            "orientation": [1, 0],
+            "pos": [
+                20,
+                20
+            ],
+            "rules": {
+                "F": "F-F+F+F-F"
+            }
+        },
+        {
+            "angle": 90,
+            "axiom": "F+F+F+F",
+            "desc": "Ice Fractals",
+            "distance": 10,
+            "itermax": 4,
+            "iterations": 3,
+            "orientation": [0, 1],
+            "pos": [
+                20,
+                20
+            ],
+            "rules": {
+                "F": "FF+F++F+F"
+            }
+        },
+        {
+            "angle": 45,
+            "axiom": "L--F--L--F",
+            "desc": "McWorter Serpinski Box (unstable)",
+            "distance": 4,
+            "itermax": 12,
+            "iterations": 11,
+            "orientation": [1, 1],
+            "pos": [
+                20,
+                20
+            ],
+            "rules": {
+                "L": "+R-F-R+",
+                "R": "-L+F+L-"
+            }
+        },
+        {
+            "angle": 90,
+            "axiom": "F",
+            "desc": "Serpinski Carpet",
+            "distance": 2,
+            "itermax": 5,
+            "iterations": 4,
+            "orientation": [0, 1],
+            "pos": [
+                20,
+                20
+            ],
+            "rules": {
+                "F": "FFF[+FFF+FFF+FFF]"
+            }
+        }
+    ],
+    "triangles": [
+        {
+            "angle": 60,
+            "axiom": "FXF--FF--FF",
+            "desc": "Serpinski Triangle",
+            "distance": 5,
+            "itermax": 6,
+            "iterations": 6,
+            "orientation": [1, 0],
+            "pos": [
+                20,
+                20
+            ],
+            "rules": {
+                "F": "FF",
+                "X": "--FXF++FXF++FXF--"
+            }
+        },
+        {
+            "angle": 60,
+            "axiom": "YF",
+            "desc": "Triangle A",
+            "distance": 5,
+            "itermax": 6,
+            "iterations": 6,
+            "orientation": [1, 0],
+            "pos": [
+                20,
+                300
+            ],
+            "rules": {
+                "X": "YF+XF+Y",
+                "Y": "XF-YF-X"
+            }
+        },
+        {
+            "angle": 60,
+            "axiom": "F++F++F+++F--F--F",
+            "desc": "Anthony Hanmer ADH258a",
+            "distance": 6,
+            "itermax": 3,
+            "iterations": 3,
+            "orientation": [1, 0],
+            "pos": [
+                100,
+                400
+            ],
+            "rules": {
+                "F": "FF++F++F++FFF"
+            }
+        }
+    ],
+    "dragons": [
+        {
+            "angle": 90,
+            "axiom": "FX",
+            "desc": "Dragon Curve",
+            "distance": 10,
+            "itermax": 12,
+            "iterations": 10,
+            "orientation": [1, 0],
+            "pos": [
+                120,
+                400
+            ],
+            "rules": {
+                "X": "X+YF+",
+                "Y": "-FX-Y"
+            }
+        },
+        {
+            "angle": 120,
+            "axiom": "F",
+            "desc": "McWorter Terdragon",
+            "distance": 6,
+            "itermax": 8,
+            "iterations": 8,
+            "orientation": [1, 0],
+            "pos": [
+                480,
+                100
+            ],
+            "rules": {
+                "F": "F+F-F"
+            }
+        }
+    ],
+    "Koch curves": [
+        {
+            "angle": 90,
+            "axiom": "F+F+F+F",
+            "desc": "Koch Island 1",
+            "distance": 5,
+            "itermax": 3,
+            "iterations": 3,
+            "orientation": [0, 1],
+            "pos": [
+                120,
+                120
+            ],
+            "rules": {
+                "F": "F+F-F-FF+F+F-F"
+            }
+        },
+        {
+            "angle": 90,
+            "axiom": "F-F-F-F",
+            "desc": "Koch Island 2",
+            "distance": 5,
+            "itermax": 3,
+            "iterations": 3,
+            "orientation": [0, 1],
+            "pos": [
+                440,
+                120
+            ],
+            "rules": {
+                "F": "F-F+F+FF-F-F+F"
+            }
+        },
+        {
+            "angle": 90,
+            "axiom": "F+F+F+F",
+            "desc": "Koch Curve 1",
+            "distance": 4,
+            "itermax": 3,
+            "iterations": 3,
+            "orientation": [0, 1],
+            "pos": [
+                310,
+                60
+            ],
+            "rules": {
+                "F": "F+F-F-FFF+F+F-F"
+            }
+        },
+        {
+            "angle": 90,
+            "axiom": "F+F+F+F",
+            "desc": "Koch Curve 2",
+            "distance": 5,
+            "itermax": 3,
+            "iterations": 2,
+            "orientation": [0, 1],
+            "pos": [
+                270,
+                180
+            ],
+            "rules": {
+                "F": "F-FF+FF+F+F-F-FF+F+F-F-FF-FF+F"
+            }
+        },
+        {
+            "angle": 90,
+            "axiom": "F-F-F-F",
+            "desc": "Koch Curve 2 (flipped)",
+            "distance": 4,
+            "itermax": 3,
+            "iterations": 2,
+            "orientation": [1, 0],
+            "pos": [
+                250,
+                250
+            ],
+            "rules": {
+                "F": "F+FF-FF-F-F+F+FF-F-F+F+FF+FF-F"
+            }
+        }
+    ],
+    "misc": [
+        {
+            "angle": 60,
+            "axiom": "F",
+            "desc": "Koch Curve",
+            "distance": 7,
+            "itermax": 5,
+            "iterations": 4,
+            "orientation": [1, 0],
+            "pos": [
+                20,
+                20
+            ],
+            "rules": {
+                "F": "F-F++F-F"
+            }
+        },
+        {
+            "angle": 90,
+            "axiom": "F-F-F-F",
+            "desc": "Mosaic",
+            "distance": 5,
+            "itermax": 3,
+            "iterations": 2,
+            "orientation": [1, 0],
+            "pos": [
+                60,
+                60
+            ],
+            "rules": {
+                "F": "F-L+FF-F-FF-FL-FF+L-FF+F+FF+FL+FFF",
+                "L": "LLLLLL"
+            }
+        },
+        {
+            "angle": 90,
+            "axiom": "F+F+F+F++F-F-F-F",
+            "desc": "Anthony Hanmer ADH256a",
+            "distance": 6,
+            "itermax": 4,
+            "iterations": 3,
+            "orientation": [0, 1],
+            "pos": [
+                100,
+                190
+            ],
+            "rules": {
+                "F": "F+F++F+FF"
+            }
+        },
+        {
+            "angle": 90,
+            "axiom": "F",
+            "desc": "Quadratic Snowflake",
+            "distance": 7,
+            "itermax": 5,
+            "iterations": 4,
+            "orientation": [1, 0],
+            "pos": [
+                20,
+                20
+            ],
+            "rules": {
+                "F": "F-F+F+F-F"
+            }
+        },
+        {
+            "angle": 60,
+            "axiom": "F",
+            "desc": "Zaikov",
+            "distance": 4,
+            "itermax": 6,
+            "iterations": 5,
+            "orientation": [1, 0],
+            "pos": [
+                20,
+                300
+            ],
+            "rules": {
+                "F": "FXF",
+                "X": "[-F+F+F]+F-F-F+"
+            }
+        },
+        {
+            "angle": 90,
+            "axiom": "F-F-F-F",
+            "desc": "Unnamed",
+            "distance": 4,
+            "itermax": 4,
+            "iterations": 3,
+            "orientation": [1, 0],
+            "pos": [
+                300,
+                300
+            ],
+            "rules": {
+                "F": "FF-F+F-F-FF"
+            }
+        }
+    ]
+}

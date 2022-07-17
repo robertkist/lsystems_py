@@ -1,9 +1,9 @@
 import os
 import json
 from typing import Any, Dict
-from PySide2.QtCore import QRect
-from PySide2.QtWidgets import QTreeWidgetItem, QMainWindow, QApplication
-from PySide2.QtGui import QCloseEvent, Qt, QImage, QPainter, QColor, QPixmap, QPen
+from PySide6.QtCore import QRect
+from PySide6.QtWidgets import QTreeWidgetItem, QMainWindow, QApplication
+from PySide6.QtGui import QCloseEvent, Qt, QImage, QPainter, QColor, QPixmap, QPen
 from gui.mainwindow_ui import Ui_MainWindow
 from lsys.lsystem import LSystem
 
